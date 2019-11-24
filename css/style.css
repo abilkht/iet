@@ -96,12 +96,12 @@ Banner
 .banner{
 	background: url('../img/bg-banner.jpg') no-repeat center top;
     background-size: cover;
-	min-height: 880px;
+	min-height: 680px;
     position: relative;
 }
 .bg-color{
 	background-color: RGBA(12, 11, 11, 0.82);
-	min-height: 880px;
+	min-height: 680px;
 }
 .text-dec{
 	font-size: 28px;
@@ -113,7 +113,7 @@ Banner
 .text-border{
 	border: 5px solid #FFDF2B;
 	display: inline-block;
-	margin-top: 550px;
+	margin-top: 300px;
 }
 .intro-para{
 	font-family: 'Alegreya Sans', sans-serif;
@@ -785,7 +785,7 @@ Responsive media queries
 }
 
 .tz-gallery {
-    padding: 40px;
+    padding: 0px 40px;
 }
 
 /* Override bootstrap column paddings */
