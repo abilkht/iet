@@ -5,20 +5,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NU IET on Campus</title>
-  <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
-  <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+  <meta name="description" content="NU IET on Campus">
+  <meta name="keywords" content="iet">
 
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <!-- =======================================================
-    Theme Name: Mentor
-    Theme URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-  ======================================================= -->
+  <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
 </head>
 
 <body>
@@ -32,7 +27,7 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="index.html">
-          <img src="img/logo.png" style="width: 260px; max-width: 100%; flex-shrink: 0;">
+          <img src="img/logo_black.png" style="width: 230px; max-width: 100%; flex-shrink: 0;">
         </a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
@@ -49,55 +44,55 @@
   </nav>
   <!--/ Navigation bar-->
   <!--Modal box-->
-  <div class="modal fade" id="login" role="dialog">
-    <div class="modal-dialog modal-sm">
+<!--  <div class="modal fade" id="login" role="dialog">-->
+<!--    <div class="modal-dialog modal-sm">-->
 
-      <!-- Modal content no 1-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title text-center form-title">Login</h4>
-        </div>
-        <div class="modal-body padtrbl">
+<!--      &lt;!&ndash; Modal content no 1&ndash;&gt;-->
+<!--      <div class="modal-content">-->
+<!--        <div class="modal-header">-->
+<!--          <button type="button" class="close" data-dismiss="modal">&times;</button>-->
+<!--          <h4 class="modal-title text-center form-title">Login</h4>-->
+<!--        </div>-->
+<!--        <div class="modal-body padtrbl">-->
 
-          <div class="login-box-body">
-            <p class="login-box-msg">Sign in to start your session</p>
-            <div class="form-group">
-              <form name="" id="loginForm">
-                <div class="form-group has-feedback">
-                  <!----- username -------------->
-                  <input class="form-control" placeholder="Username" id="loginid" type="text" autocomplete="off" />
-                  <span style="display:none;font-weight:bold; position:absolute;color: red;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;" id="span_loginid"></span>
-                  <!---Alredy exists  ! -->
-                  <span class="glyphicon glyphicon-user form-control-feedback"></span>
-                </div>
-                <div class="form-group has-feedback">
-                  <!----- password -------------->
-                  <input class="form-control" placeholder="Password" id="loginpsw" type="password" autocomplete="off" />
-                  <span style="display:none;font-weight:bold; position:absolute;color: grey;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;" id="span_loginpsw"></span>
-                  <!---Alredy exists  ! -->
-                  <span class="glyphicon glyphicon-lock form-control-feedback"></span>
-                </div>
-                <div class="row">
-                  <div class="col-xs-12">
-                    <div class="checkbox icheck">
-                      <label>
-                                <input type="checkbox" id="loginrem" > Remember Me
-                              </label>
-                    </div>
-                  </div>
-                  <div class="col-xs-12">
-                    <button type="button" class="btn btn-green btn-block btn-flat" onclick="userlogin()">Sign In</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
+<!--          <div class="login-box-body">-->
+<!--            <p class="login-box-msg">Sign in to start your session</p>-->
+<!--            <div class="form-group">-->
+<!--              <form name="" id="loginForm">-->
+<!--                <div class="form-group has-feedback">-->
+<!--                  &lt;!&ndash;-&#45;&#45; username &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;-->
+<!--                  <input class="form-control" placeholder="Username" id="loginid" type="text" autocomplete="off" />-->
+<!--                  <span style="display:none;font-weight:bold; position:absolute;color: red;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;" id="span_loginid"></span>-->
+<!--                  &lt;!&ndash;-Alredy exists  ! &ndash;&gt;-->
+<!--                  <span class="glyphicon glyphicon-user form-control-feedback"></span>-->
+<!--                </div>-->
+<!--                <div class="form-group has-feedback">-->
+<!--                  &lt;!&ndash;-&#45;&#45; password &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;-->
+<!--                  <input class="form-control" placeholder="Password" id="loginpsw" type="password" autocomplete="off" />-->
+<!--                  <span style="display:none;font-weight:bold; position:absolute;color: grey;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;" id="span_loginpsw"></span>-->
+<!--                  &lt;!&ndash;-Alredy exists  ! &ndash;&gt;-->
+<!--                  <span class="glyphicon glyphicon-lock form-control-feedback"></span>-->
+<!--                </div>-->
+<!--                <div class="row">-->
+<!--                  <div class="col-xs-12">-->
+<!--                    <div class="checkbox icheck">-->
+<!--                      <label>-->
+<!--                                <input type="checkbox" id="loginrem" > Remember Me-->
+<!--                              </label>-->
+<!--                    </div>-->
+<!--                  </div>-->
+<!--                  <div class="col-xs-12">-->
+<!--                    <button type="button" class="btn btn-green btn-block btn-flat" onclick="userlogin()">Sign In</button>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </form>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
 
-    </div>
-  </div>
+<!--    </div>-->
+<!--  </div>-->
   <!--/ Modal box-->
   <!--Banner-->
   <div class="banner">
@@ -110,7 +105,7 @@
             </div>
             <div class="intro-para text-center quote">
               <p class="big-text" style="color: #ffff00">Working to engineer a better world</p>
-              <p class="small-text" style="color: #717f86; font-size: 20px">To inspire, inform and influence the global engineering community, supporting technology innovation to meet the needs of society</p>
+              <p class="small-text" style="color: #ffffff; font-size: 20px">To inspire, inform and influence the global engineering community, supporting technology innovation to meet the needs of society</p>
               <!-- <a href="#footer" class="btn get-quote">More</a> -->
             </div>
             <a href="#feature" class="mouse-hover">
@@ -128,40 +123,40 @@
       <div class="row">
         <div class="header-section text-center">
           <h2>About us <i class="fa fa-users"></i></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
+<!--          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>-->
           <hr class="bottom-line">
         </div>
         <div class="feature-info">
           <div class="fea">
             <div class="col-md-4">
               <div class="heading pull-right">
-                <h4>Latest Technologies</h4>
-                <p>Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tincidunt convallis id id nisi in interdum.</p>
+                <h4>What is IET</h4>
+                <p>From the foundation of the Society of Telegraph Engineers in 1871 to the creation of the Institution of Engineering and Technology, the primary motive of the world renowned organization has been to “Inspire, Inform and Influence the global engineering community to engineer a better world”. The IET On Campus, BIT Mesra has been an ardent supporter of this cause, with its indefatigable efforts to deliver information to the masses about the latest cutting edge technologies and scientific advancements. At the same time, we try to stimulate and rouse innovation and curiosity in the minds of students.</p>
               </div>
               <div class="fea-img pull-left">
-                <i class="fa fa-css3"></i>
+                <i class="fa fa-sun-o"></i>
               </div>
             </div>
           </div>
           <div class="fea">
             <div class="col-md-4">
               <div class="heading pull-right">
-                <h4>Toons Background</h4>
-                <p>Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tincidunt convallis id id nisi in interdum.</p>
+                <h4>What we do</h4>
+                <p>Our progressive vision is materialized through the multi faceted and proliferated seminars and workshops, well spaced throughout the academic year. We also provide active contributions to the annual techno-cultural fests of our institute, “Pantheon” and “Bitotsav”. Since 2018, we also have been an organizer to East India’s largest student hackathon, “Hack-A-BIT”. Moreover, we continuously strive to bring the academia in contact with the experience of the industry to create a perfect blend of theoretical and practical knowledge.</p>
               </div>
               <div class="fea-img pull-left">
-                <i class="fa fa-drupal"></i>
+                <i class="fa fa-heart"></i>
               </div>
             </div>
           </div>
           <div class="fea">
             <div class="col-md-4">
               <div class="heading pull-right">
-                <h4>Award Winning Design</h4>
-                <p>Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tincidunt convallis id id nisi in interdum.</p>
+                <h4>Who we are</h4>
+                <p>We are a congregation of tech aficionado trying to inculcate technological knowledge and programming skills in the student community. We have a vehement commitment towards new technologies and programming for the advancement of the society. Our ultimate goal is to feed the grey matter of our learners and aggrandize their dexterity in programming and other technical fields.</p>
               </div>
               <div class="fea-img pull-left">
-                <i class="fa fa-trophy"></i>
+                <i class="fa fa-angellist"></i>
               </div>
             </div>
           </div>
@@ -237,36 +232,100 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
           <hr class="bottom-line">
         </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="service-box text-center">
-            <div class="icon-box">
-              <i class="fa fa-html5 color-green"></i>
-            </div>
-            <div class="icon-text">
-              <h4 class="ser-text">Some Workshop</h4>
-            </div>
-          </div>
+<!--        <div class="col-md-4 col-sm-6">-->
+<!--          <div class="service-box text-center">-->
+<!--            <div class="icon-box">-->
+<!--              <i class="fa fa-html5 color-green"></i>-->
+<!--            </div>-->
+<!--            <div class="icon-text">-->
+<!--              <h4 class="ser-text">Some Workshop</h4>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="col-md-4 col-sm-6">-->
+<!--          <div class="service-box text-center">-->
+<!--            <div class="icon-box">-->
+<!--              <i class="fa fa-css3 color-green"></i>-->
+<!--            </div>-->
+<!--            <div class="icon-text">-->
+<!--              <h4 class="ser-text">Some Workshop</h4>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="col-md-4 col-sm-6">-->
+<!--          <div class="service-box text-center">-->
+<!--            <div class="icon-box">-->
+<!--              <i class="fa fa-joomla color-green"></i>-->
+<!--            </div>-->
+<!--            <div class="icon-text">-->
+<!--              <h4 class="ser-text">Some Workshop</h4>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 padleft-right">
+          <figure class="imghvr-fold-up">
+            <img src="img/iet_tournament.jpg" class="img-responsive">
+            <figcaption>
+              <h3>IET Intellectual Techno Tournament</h3>
+              <p>The contest aims to create a competition between students on technical knowledge and inspire them to deepen their knowledge in STEM. The teams scramble for the name of ‘the smartest team’.</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
         </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="service-box text-center">
-            <div class="icon-box">
-              <i class="fa fa-css3 color-green"></i>
-            </div>
-            <div class="icon-text">
-              <h4 class="ser-text">Some Workshop</h4>
-            </div>
-          </div>
+        <div class="col-md-4 col-sm-6 padleft-right">
+          <figure class="imghvr-fold-up">
+            <img src="img/my_summer.jpg" class="img-responsive">
+            <figcaption>
+              <h3>My summer</h3>
+              <p>It is an annual event organized by NU IET On Campus, which aims to create a friendly atmosphere which allows guests to learn more about the possibilities of an internship from their peers. We are happy to see inspired guests after the talks given by outstanding students of our university.</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
         </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="service-box text-center">
-            <div class="icon-box">
-              <i class="fa fa-joomla color-green"></i>
-            </div>
-            <div class="icon-text">
-              <h4 class="ser-text">Some Workshop</h4>
-            </div>
-          </div>
+        <div class="col-md-4 col-sm-6 padleft-right">
+          <figure class="imghvr-fold-up">
+            <img src="img/women_in_stem.jpg" class="img-responsive">
+            <figcaption>
+              <h3>Women in STEM</h3>
+              <p>The event aims to promote the diversity and inclusion across the spheres of engineering and technology from the on-campus level. We work on creating a place for a discussion of the brilliant achievements of women, the problems women face to become a scientist or an engineer, and support each other by giving advices, suggesting solutions of the discussed issues and sharing own stories.</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
         </div>
+        <!--        <div class="col-md-4 col-sm-6 padleft-right">-->
+        <!--          <figure class="imghvr-fold-up">-->
+        <!--            <img src="img/patw.jpg" class="img-responsive">-->
+        <!--            <figcaption>-->
+        <!--              <h3>IET Present Around the World (PATW)</h3>-->
+        <!--              <p></p>-->
+        <!--            </figcaption>-->
+        <!--            <a href="#"></a>-->
+        <!--          </figure>-->
+        <!--        </div>-->
+        <!--        <div class="col-md-4 col-sm-6 padleft-right">-->
+        <!--          <figure class="imghvr-fold-up">-->
+        <!--            <img src="img/course05.jpg" class="img-responsive">-->
+        <!--            <figcaption>-->
+        <!--              <h3>Event 5</h3>-->
+        <!--              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>-->
+        <!--            </figcaption>-->
+        <!--            <a href="#"></a>-->
+        <!--          </figure>-->
+        <!--        </div>-->
+        <!--        <div class="col-md-4 col-sm-6 padleft-right">-->
+        <!--          <figure class="imghvr-fold-up">-->
+        <!--            <img src="img/course06.jpg" class="img-responsive">-->
+        <!--            <figcaption>-->
+        <!--              <h3>Event 6</h3>-->
+        <!--              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>-->
+        <!--            </figcaption>-->
+        <!--            <a href="#"></a>-->
+        <!--          </figure>-->
+        <!--        </div>-->
       </div>
     </div>
   </section>
@@ -277,21 +336,22 @@
       <div class="row">
         <div class="header-section text-center">
           <h2>Meet Our Board Member</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
+<!--          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>-->
           <hr class="bottom-line">
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4">
           <div class="pm-staff-profile-container">
             <div class="pm-staff-profile-image-wrapper text-center">
               <div class="pm-staff-profile-image">
-                <img src="img/mentor.jpg" alt="" class="img-thumbnail img-circle" />
+                <img src="img/ayazhan.jpg" alt="" class="img-thumbnail img-circle" />
               </div>
             </div>
             <div class="pm-staff-profile-details text-center">
-              <p class="pm-staff-profile-name">Nurdaulet Mukhituly</p>
-              <p class="pm-staff-profile-title">Bratishka</p>
+              <p class="pm-staff-profile-name">Ayazhan Myrzaliyeva</p>
+              <p class="pm-staff-profile-title">2nd year student</p>
 
-              <p class="pm-staff-profile-bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et placerat dui. In posuere metus et elit placerat tristique. Maecenas eu est in sem ullamcorper tincidunt. </p>
+              <p class="pm-staff-profile-bio">Department of Political Science and International Relations</p>
+              <p>"Life is happening, b*tch, live it!"</p>
             </div>
           </div>
         </div>
@@ -299,14 +359,15 @@
           <div class="pm-staff-profile-container">
             <div class="pm-staff-profile-image-wrapper text-center">
               <div class="pm-staff-profile-image">
-                <img src="img/mentor.jpg" alt="" class="img-thumbnail img-circle" />
+                <img src="img/sabina.jpg" alt="" class="img-thumbnail img-circle" />
               </div>
             </div>
             <div class="pm-staff-profile-details text-center">
-              <p class="pm-staff-profile-name">Nurdaulet Mukhituly</p>
-              <p class="pm-staff-profile-title">Bratishka</p>
+              <p class="pm-staff-profile-name">Sabina Akpayeva</p>
+              <p class="pm-staff-profile-title">2nd year student</p>
 
-              <p class="pm-staff-profile-bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et placerat dui. In posuere metus et elit placerat tristique. Maecenas eu est in sem ullamcorper tincidunt. </p>
+              <p class="pm-staff-profile-bio">Department of Civil and Environmental Engineering</p>
+              <p>"Just take it easy"</p>
             </div>
           </div>
         </div>
@@ -314,14 +375,63 @@
           <div class="pm-staff-profile-container">
             <div class="pm-staff-profile-image-wrapper text-center">
               <div class="pm-staff-profile-image">
-                <img src="img/mentor.jpg" alt="" class="img-thumbnail img-circle" />
+                <img src="img/gulnur.jpg" alt="" class="img-thumbnail img-circle" />
               </div>
             </div>
             <div class="pm-staff-profile-details text-center">
-              <p class="pm-staff-profile-name">Nurdaulet Mukhituly</p>
-              <p class="pm-staff-profile-title">Bratishka</p>
+              <p class="pm-staff-profile-name">Gulnur Pernebekova</p>
+              <p class="pm-staff-profile-title">2nd year student</p>
 
-              <p class="pm-staff-profile-bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et placerat dui. In posuere metus et elit placerat tristique. Maecenas eu est in sem ullamcorper tincidunt. </p>
+              <p class="pm-staff-profile-bio">Department of Civil and Environmental Engineering</p>
+              <p>"Believe in yourself"</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="pm-staff-profile-container">
+            <div class="pm-staff-profile-image-wrapper text-center">
+              <div class="pm-staff-profile-image">
+                <img src="img/kalamkas.jpg" alt="" class="img-thumbnail img-circle" />
+              </div>
+            </div>
+            <div class="pm-staff-profile-details text-center">
+              <p class="pm-staff-profile-name">Kalamkas Akmurzina</p>
+              <p class="pm-staff-profile-title">2nd year student</p>
+
+              <p class="pm-staff-profile-bio">Department of Electrical and Computer Engineering</p>
+              <p>"By overcoming, we gain strength"</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="pm-staff-profile-container">
+            <div class="pm-staff-profile-image-wrapper text-center">
+              <div class="pm-staff-profile-image">
+                <img src="img/aizhamal.jpg" alt="" class="img-thumbnail img-circle" />
+              </div>
+            </div>
+            <div class="pm-staff-profile-details text-center">
+              <p class="pm-staff-profile-name">Aizhamal Matiyeva</p>
+              <p class="pm-staff-profile-title">2nd year student</p>
+
+              <p class="pm-staff-profile-bio">Department of Civil and Environmental Engineering</p>
+              <p>"You do YOU"</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="pm-staff-profile-container">
+            <div class="pm-staff-profile-image-wrapper text-center">
+              <div class="pm-staff-profile-image">
+                <img src="img/damira.jpg" alt="" class="img-thumbnail img-circle" />
+              </div>
+            </div>
+            <div class="pm-staff-profile-details text-center">
+              <p class="pm-staff-profile-name">Damira Dairabayeva</p>
+              <p class="pm-staff-profile-title">2nd year student</p>
+
+              <p class="pm-staff-profile-bio">Department of Mechanical and Aerospace Engineering</p>
+              <p>"Life is either a daring adventure or nothing at all. – Helen Keller"</p>
             </div>
           </div>
         </div>
@@ -335,19 +445,19 @@
       <div class="row">
         <div class="header-section text-center">
           <h2 class="white">Some quotes about IET?</h2>
-          <p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
+<!--          <p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>-->
           <hr class="bottom-line bg-white">
         </div>
         <div class="col-md-6 col-sm-6">
           <div class="text-comment">
-            <p class="text-par">"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, nec sagittis sem"</p>
-            <p class="text-name">Shigeo Katsu - Creative Dırector</p>
+            <p class="text-par">"Science is about knowing;<br> engineering is about doing"</p>
+            <p class="text-name">Henry Petroski</p>
           </div>
         </div>
         <div class="col-md-6 col-sm-6">
           <div class="text-comment">
-            <p class="text-par">"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, nec sagittis sem"</p>
-            <p class="text-name">Shigeo Katsu - Creative Dırector</p>
+            <p class="text-par">"Engineering is the art of directing the great sources of power in nature for the use and convenience of man"</p>
+            <p class="text-name">Thomas Tredgold</p>
           </div>
         </div>
       </div>
@@ -365,70 +475,50 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-sm-6 padleft-right">
-          <figure class="imghvr-fold-up">
-            <img src="img/course01.jpg" class="img-responsive">
-            <figcaption>
-              <h3>Event 1</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
+
+    <div class="container gallery-container">
+      <div class="tz-gallery">
+
+        <div class="row">
+
+          <div class="col-sm-12 col-md-4">
+            <a class="lightbox" href="img/1.jpg">
+              <img src="img/1.jpg">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/2.jpg">
+              <img src="img/2.jpg">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/3.jpg">
+              <img src="img/3.jpg">
+            </a>
+          </div>
+          <div class="col-sm-12 col-md-8">
+            <a class="lightbox" href="img/4.jpg">
+              <img src="img/4.jpg">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/5.jpg">
+              <img src="img/5.jpg">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/6.jpg">
+              <img src="img/7.jpg">
+            </a>
+          </div>
+
         </div>
-        <div class="col-md-4 col-sm-6 padleft-right">
-          <figure class="imghvr-fold-up">
-            <img src="img/course02.jpg" class="img-responsive">
-            <figcaption>
-              <h3>Event 2</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
-        <div class="col-md-4 col-sm-6 padleft-right">
-          <figure class="imghvr-fold-up">
-            <img src="img/course03.jpg" class="img-responsive">
-            <figcaption>
-              <h3>Event 3</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
-        <div class="col-md-4 col-sm-6 padleft-right">
-          <figure class="imghvr-fold-up">
-            <img src="img/course04.jpg" class="img-responsive">
-            <figcaption>
-              <h3>Event 4</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
-        <div class="col-md-4 col-sm-6 padleft-right">
-          <figure class="imghvr-fold-up">
-            <img src="img/course05.jpg" class="img-responsive">
-            <figcaption>
-              <h3>Event 5</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
-        <div class="col-md-4 col-sm-6 padleft-right">
-          <figure class="imghvr-fold-up">
-            <img src="img/course06.jpg" class="img-responsive">
-            <figcaption>
-              <h3>Event 6</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
+
       </div>
+
     </div>
+
+
   </section>
   <!--/ Courses-->
   <!--Pricing-->
@@ -574,6 +664,10 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/custom.js"></script>
   <script src="contactform/contactform.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+  <script>
+    baguetteBox.run('.tz-gallery');
+  </script>
 
 </body>
 
